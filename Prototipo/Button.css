@@ -1,0 +1,58 @@
+
+    }
+    &.white-blue {
+        font-weight: 700;
+        color: #00aeef;
+        border-color: white;
+        background: white;
+    }
+    &.white-blue:hover {
+        color: white;
+        background: #00aeef;
+        border-color: white;
+    }
+    &.white-green {
+        font-weight: 700;
+        color: #7dc21e;
+        border-color: white;
+        background: white;
+    }
+    &.white-green:hover {
+        color: white;
+        background: #7dc21e;
+        border-color: white;
+    }
+   &.green-white {
+        font-weight: 700;
+        color: #7dc21e;
+        border-color: #7dc21e;
+        background: transparent;
+    }
+    &.green-white:hover {
+        color: white;
+        background: #7dc21e;
+        border-color: #7dc21e;
+    }
+    &.purple-white {
+        font-weight: 700;
+        color: #664e96;
+        border-color: #664e96;
+        background: transparent;
+    }
+    &.purple-white:hover {
+        color: white;
+        background: #664e96;
+        border-color: #664e96;
+    }
+    &.white-purple {
+        font-weight: 700;
+        color: #664e96;
+        border-color: white;
+        background: white;
+    }
+    &.white-purple:hover {
+        color: white;
+        background: #664e96;
+        border-color: white;
+    }
+}

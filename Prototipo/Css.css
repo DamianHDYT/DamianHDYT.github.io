@@ -1,0 +1,225 @@
+body {
+background: url(http://localhost/Prototipo/Media/ARTE%20TERAPIA.png);
+}
+
+/* 6 */
+.btn-6 {
+  background: rgb(247,150,192);
+background: radial-gradient(circle, rgba(247,150,192,1) 0%, rgba(118,174,241,1) 100%);
+  line-height: 42px;
+  padding: 0;
+  border: none;
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 1px;
+ box-shadow:
+   -1px -1px 20px 0px rgba(255,255,255,1),
+   -4px -4px 5px 0px rgba(255,255,255,1),
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 500ms ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 500ms ease;
+}
+.btn-6:hover{
+  background: transparent;
+  color: #76aef1;
+  box-shadow: none;
+}
+.btn-6:hover:before {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 500ms ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  box-shadow:
+   -1px -1px 20px 0px rgba(255,255,255,1),
+   -4px -4px 5px 0px rgba(255,255,255,1),
+   7px 7px 20px 0px rgba(0,0,0,.4),
+   4px 4px 5px 0px rgba(0,0,0,.3);
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:after {
+  right: 0;
+  bottom: 0;
+  width: 0%;
+  height: .5px;
+  transition: all 500ms ease;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+.btn-6 span:hover:after {
+  width: 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+form {
+  padding: 1em;
+  background: #FAFAFA;
+  border: 1px solid #FAFAFA;
+  margin-top: 2rem;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+form input {
+  margin-bottom: 1rem;
+  background: #fff;
+  border: 1px solid #1B09E9;
+}
+form button {
+  background: lightgrey;
+  padding: 0.7em;
+  border: 0;
+}
+form button:hover {
+  background: gold;
+}
+
+label {
+  text-align: right;
+  display: block;
+  padding: 0.5em 1.5em 0.5em 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.7em;
+  margin-bottom: 0.5rem;
+}
+input:focus {
+  outline: 3px solid gold;
+}
+
+@media (min-width: 400px) {
+  form {
+    overflow: hidden;
+  }
+  label {
+    float: left;
+    width: 200px;
+  }
+
+  input {
+    float: left;
+    width: calc(100% - 200px);
+$muted: #6c757d;
+  }
+
+
+@media (min-width: 400px) {
+  form {
+    overflow: hidden;
+  }
+  label {
+    float: left;
+    width: 200px;
+  }
+
+  input {
+    float: left;
+    width: calc(100% - 200px);
+$muted: #6c757d;
+  }
+}
+.brand {
+    position: relative;
+    text-align: center;
+     
+}
+#text {
+   position: absolute;
+   top: 15%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+#image {
+ position: absolute;
+   top: 90%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/* TODO : to adapt to other browsers */
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  transition: all 0.1s ease;
+  border: none;
+  /*   outline-color: transparent; */
+  cursor: pointer;
+}
+
+/* Button 5 */
+.btn-5 {
+  color: #ffffff;
+  background: transparent;
+  border-color: #e037ff;
+  border-style: double;
+  border-width: 3px;
+  border-radius: 24px;
+}
+
+.btn-5:hover,
+.btn-5:focus,
+.btn-5:active {
+  color: #ffe9ff;
+  text-shadow: 0 2px 6px #f6f6f6;
+  background: #68e3ffd9;
+  border-color: #fff;
+  border-style: double;
+  border-width: 3px;
+  box-shadow: 0 0 78px 4px #e062ff,
+              0 0 12px 6px #fea0ff,
+              inset 0 0 12px 6px #ffc0fa;
+}

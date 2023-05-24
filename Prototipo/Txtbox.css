@@ -1,0 +1,38 @@
+.messagebox {
+  background: linear-gradient(505deg, #0FAFA4, #F408D4);
+  width: 90%;
+  border-radius: 40px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #eeaae8;
+  padding: px;
+  color: #f1eded;
+  font-size: 20px;
+  font-family: monospace;
+  margin: 30px auto;
+}
+
+.exclamation {
+  font-size: 60px;
+  animation-name: explosion;
+  animation-duration: 500ms;
+  animation-iteration-count: infinite;
+}
+
+@keyframes explosion {
+  0% {
+    color: #d31b1b;
+  }
+  
+  33% {
+    color: orange;
+  }
+  
+  66% {
+    color: yellow;
+  }
+  
+  100% {
+    color: red;
+  }
+}

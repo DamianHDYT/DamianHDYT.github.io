@@ -1,0 +1,77 @@
+#container {
+
+	width: auto;
+
+	max-width: 500px;
+
+	height: auto;
+
+	margin: 5em auto;
+/* 	اي شئ خارج نطاق الحاوية قم بأخفاءه */
+	overflow: hidden;
+/* 	الاطار الخاص بالحاوية */
+	border: 10px solid #EEE5E5;
+	outline: 5px dashed #EEE5E5;
+
+	position: relative;
+/* 	z-index: 1; */
+	
+	
+}
+#container img {
+	width: 100%;
+	height: 100%;
+	margin-bottom: -5px;
+	transition: all 0.3s ease-out;
+	position: relative;
+	z-index: 2;
+}
+
+
+/* الطريقة الاولي */
+/* عندما المس الصورة قم بتكبيرها */
+/* #container img:hover {transform: scale(1.2, 1.2);} */
+
+/* الطريقة الثانية */
+/* عندما المس الحاوية قم بتكبير الصورة */
+#container:hover img {
+	
+	
+}
+
+.box-text {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 3;
+	padding: 10px;
+    background-image: linear-gradient( 135deg, rgba(129, 255, 239, 0.50) 10%, rgba(240, 103, 180, 0.65) 100%);
+	opacity: 1;
+
+	font-family: 'Bellefair', serif;
+font-family: 'Satisfy', cursive;
+/* font-family: 'Slabo 27px', serif; */
+/* font-family: 'Vidaloka', serif; */
+	text-shadow: 2px 2px 2px #333;
+	
+}
+.box-text h1 {
+	font-size: 2.2em;
+	font-family: 'Bellefair', serif;
+font-family: 'Comfortaa', cursive;
+}
+.box-text p {font-size: 1.5em;}
+
+
+/*
+<link rel="stylesheet" type="text/css" href="file:///C:/xampp/htdocs/Prototipo/CajaImagen.css">
+<div id="container">
+
+	<img src="file:///C:/xampp/htdocs/Prototipo/Media/Subclinica.jpg" alt="Omar">
+	<div class="box-text">
+	<p style="size: 5">Depresión subclínica</p>
+	<p style="size: 5">Es aquella depresión que puede pasar prácticamente inadvertida porque no se detecta la presencia de ánimo deprimido, ni la incapacidad para disfrutar de las cosas, y sí otros síntomas de los descritos (pesimismo, ansiedad, irritabilidad, apatía, embotamiento afectivo pérdida de apetito, disminución de peso, alteraciones del sueño, etc. </p>
+</link>
+*/
